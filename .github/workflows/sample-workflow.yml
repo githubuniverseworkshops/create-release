@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@master
       - name: Create Release
         id: create_release
-        uses: .
+        uses: ./
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
