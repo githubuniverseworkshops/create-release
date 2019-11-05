@@ -6,7 +6,7 @@ async function run() {
     // Get authenticated GitHub client (Ocktokit): https://github.com/actions/toolkit/tree/master/packages/github#usage
     
 
-    // Get owner and repo from context of payload that triggered the action
+    // Get owner and repo from context of payload that triggered the action: https://help.github.com/en/github/automating-your-workflow-with-github-actions/events-that-trigger-workflows
     
 
     // Get the inputs from the workflow file: https://github.com/actions/toolkit/tree/master/packages/core#inputsoutputs
